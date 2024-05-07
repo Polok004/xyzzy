@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         ShapeTextView = findViewById(R.id.ShapeTextView);
         ColorTextView = findViewById(R.id.ColorTextView);
-
+       //hguyfyfy
         button.setOnClickListener(v -> {
             String shape = ShapeEditText.getText().toString();
             String color = ColorEditText.getText().toString() ;
@@ -136,10 +136,12 @@ public class MainActivity extends AppCompatActivity {
                 Circle c = new Circle(5);
                 ShapeTextView.setText(c.showShape());
             }
+            ///jhjhjh
             else if(shape.equals("Square")){
                 Square s = new Square(5);
                 ShapeTextView.setText(s.showShape());
             }
+            //jjgvhvyv
             else if(shape.equals("Triangle")){
                 Triangle t = new Triangle(3,4,5);
                 ShapeTextView.setText(t.showShape());
