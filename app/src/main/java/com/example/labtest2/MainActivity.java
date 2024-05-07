@@ -144,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 Triangle t = new Triangle(3,4,5);
                 ShapeTextView.setText(t.showShape());
             }
+            //huugugu
             else{
                 ShapeTextView.setText("Invalid Shape");
             }
@@ -157,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
                 Green g = new Green();
                 ColorTextView.setText(g.showColor());
             }
+            //khjgugug
             else if(color.equals("Blue")){
                 Blue b = new Blue();
                 ColorTextView.setText(b.showColor());
